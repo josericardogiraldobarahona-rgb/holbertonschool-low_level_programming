@@ -15,7 +15,7 @@ int last_d;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 last_d = n % 10;
-printf("last digit of %d is %d", n, last_d);
+printf("last digit of %d is %d ", n, last_d);
 if (last_d > 5)
 {
 printf("and is grater than 5\n");
