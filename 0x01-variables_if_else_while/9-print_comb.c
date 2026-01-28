@@ -9,11 +9,14 @@
 int main(void)
 {
 int numero;
-for (numero = '0'; numero <= '9'; numero++)
+for (numero = 48; numero <= 57; numero++)
 {
 putchar(numero);
+if (numero < 57)
+{
 putchar(',');
 putchar(' ');
+}
 }
 putchar('\n');
 return (0);
