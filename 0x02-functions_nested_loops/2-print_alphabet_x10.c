@@ -17,7 +17,7 @@ while (letra <= 'z')
 _putchar(letra);
 letra++;
 }
-}
 _putchar('\n');
+}
 return;
 }
