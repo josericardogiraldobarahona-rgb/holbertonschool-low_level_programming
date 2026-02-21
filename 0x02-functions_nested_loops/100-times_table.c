@@ -5,7 +5,7 @@
 void print_times_table(int n)
 {
 int fila, col, mult;
-if (n >= 0 && n <= 15)
+if (n >= 0 && n <= 98)
    {
      for (fila = 0; fila <=n; fila++)
      {
