@@ -5,8 +5,8 @@
 void print_times_table(int n)
 {
 int fila, col, mult;
-if (n >= 0 && n <= 98)
-   {
+if (n >= 0 && n <= 15)
+       {
      for (fila = 0; fila <=n; fila++)
      {
         for (col = 0; col <=n; col++)
@@ -37,7 +37,7 @@ if (n >= 0 && n <= 98)
               _putchar(',');
                 _putchar(' ');
                 _putchar((mult / 100) + '0');
-                _putchar(((mult % 10) % 10) + '0');  
+                _putchar(((mult / 10) % 10) + '0');  
                 _putchar((mult % 10) + '0'); 
             }
         }
